@@ -1,0 +1,6 @@
+# Internal launch documents (not for public repo)
+LAUNCH-CONTENT.md
+LAUNCH-STRATEGY.md
+
+# Claude internal config
+.claude/
