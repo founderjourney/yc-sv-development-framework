@@ -1,23 +1,23 @@
-# Fuentes Originales del Framework
+# Original Sources
 
 ## Paul Graham (YC Co-founder)
 
-- [Do Things That Don't Scale](https://paulgraham.com/ds.html) - El essay clásico
-- [Founder Mode](https://paulgraham.com/foundermode.html) - Sobre Brian Chesky y Airbnb
-- [Default Alive or Default Dead](https://paulgraham.com/aord.html) - La pregunta crítica
-- [Startup = Growth](https://paulgraham.com/growth.html) - Definición de startup
+- [Do Things That Don't Scale](https://paulgraham.com/ds.html) - The classic essay
+- [Founder Mode](https://paulgraham.com/foundermode.html) - On Brian Chesky and Airbnb
+- [Default Alive or Default Dead](https://paulgraham.com/aord.html) - The critical question
+- [Startup = Growth](https://paulgraham.com/growth.html) - Definition of a startup
 - [How to Get Startup Ideas](https://paulgraham.com/startupideas.html) - Make something people want
 
 ## Sam Altman (ex-YC President)
 
-- [Startup Advice](https://blog.samaltman.com/startup-advice) - Consejos compilados
-- [Startup Advice, Briefly](https://blog.samaltman.com/startup-advice-briefly) - Versión corta
-- [Startup Playbook](https://playbook.samaltman.com/) - El playbook completo
+- [Startup Advice](https://blog.samaltman.com/startup-advice) - Compiled advice
+- [Startup Advice, Briefly](https://blog.samaltman.com/startup-advice-briefly) - Short version
+- [Startup Playbook](https://playbook.samaltman.com/) - The complete playbook
 
-## Michael Seibel (YC Partner Emeritus)
+## Michael Seibel (YC Partner Emeritus, Former CEO)
 
-- [YC's Essential Startup Advice](https://www.michaelseibel.com/blog/yc-s-essential-startup-advice) - Lo esencial
-- [The Goals of a Pre-Launch Startup](https://www.startuparchive.org/p/former-yc-ceo-michael-seibel-explains-the-goals-of-a-pre-launch-startup) - Pre-lanzamiento
+- [YC's Essential Startup Advice](https://www.michaelseibel.com/blog/yc-s-essential-startup-advice) - The essentials
+- [The Goals of a Pre-Launch Startup](https://www.startuparchive.org/p/former-yc-ceo-michael-seibel-explains-the-goals-of-a-pre-launch-startup) - Pre-launch phase
 
 ## Patrick Collison (Stripe CEO)
 
@@ -26,13 +26,13 @@
 
 ## Brian Chesky (Airbnb CEO)
 
-- [Founder Mode Talk at YC](https://dannydenhard.com/blog/founder-mode-explained) - El talk original
-- ["Do it until it hurts, then automate"](https://sketchplanations.com/do-things-that-dont-scale) - La frase célebre
+- [Founder Mode Talk at YC](https://dannydenhard.com/blog/founder-mode-explained) - The original talk
+- ["Do it until it hurts, then automate"](https://sketchplanations.com/do-things-that-dont-scale) - The famous phrase
 
 ---
 
-## Lecturas Adicionales Recomendadas
+## Additional Recommended Reading
 
 - [The Pragmatic Engineer Newsletter](https://newsletter.pragmaticengineer.com/) - Gergely Orosz
-- [Y Combinator Library](https://www.ycombinator.com/library) - Recursos oficiales YC
-- [Hacker News](https://news.ycombinator.com/) - Comunidad YC
+- [Y Combinator Library](https://www.ycombinator.com/library) - Official YC resources
+- [Hacker News](https://news.ycombinator.com/) - YC community

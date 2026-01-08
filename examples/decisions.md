@@ -1,95 +1,95 @@
-# Ejemplos de Decisiones con el Framework YC/SV
+# Decision Examples Using the YC/SV Framework
 
-## Ejemplo 1: ¿Debo agregar tests?
+## Example 1: Should I add tests?
 
-**Contexto:** Tengo una función de checkout que procesa pagos con Stripe.
+**Context:** I have a checkout function that processes payments with Stripe.
 
-**Aplicando el framework:**
+**Applying the framework:**
 
-1. ¿Está funcionando? → SÍ, pero sin tests
-2. ¿Hay quejas? → NO, pero si falla perdemos dinero
-3. ¿Bloquea revenue? → Un bug aquí SÍ bloquearía revenue
+1. Is it working? → YES, but without tests
+2. Are there complaints? → NO, but if it fails we lose money
+3. Does it block revenue? → A bug here WOULD block revenue
 
-**Decisión:** P0 - Agregar tests al código de pagos HOY
+**Decision:** P0 - Add tests to payment code TODAY
 
-**Principio aplicado:** "Tests para código crítico de pagos: SÍ"
-
----
-
-## Ejemplo 2: ¿Debo refactorizar este componente?
-
-**Contexto:** Un componente React de 500 líneas que "se ve feo" pero funciona.
-
-**Aplicando el framework:**
-
-1. ¿Está funcionando? → SÍ
-2. ¿Hay quejas? → NO
-3. ¿Bloquea revenue? → NO
-
-**Decisión:** NUNCA - No tocar
-
-**Principio aplicado:** "Si 'se ve feo' pero funciona: NO refactorizar"
+**Applied principle:** "Tests for critical payment code: YES"
 
 ---
 
-## Ejemplo 3: ¿Debo automatizar el deploy?
+## Example 2: Should I refactor this component?
 
-**Contexto:** Deploy manual toma 45 minutos, hacemos 3 deploys/semana.
+**Context:** A 500-line React component that "looks ugly" but works.
 
-**Aplicando el framework:**
+**Applying the framework:**
 
-1. ¿Está funcionando? → SÍ, pero lento
-2. ¿Hay quejas? → El equipo pierde 2+ horas/semana
-3. ¿Bloquea revenue? → NO directamente, pero reduce velocidad de shipping
+1. Is it working? → YES
+2. Are there complaints? → NO
+3. Does it block revenue? → NO
 
-**Decisión:** P1 - Esta semana, porque "ship fast" es core
+**Decision:** NEVER - Don't touch it
 
-**Principio aplicado:** "Si deploy manual toma >30min: SÍ automatizar"
-
----
-
-## Ejemplo 4: ¿Debo usar este nuevo framework?
-
-**Contexto:** Vi un framework nuevo en Twitter que parece cool.
-
-**Aplicando el framework:**
-
-1. ¿Resuelve problema real HOY? → NO, solo "sería útil"
-2. ¿El equipo lo conoce? → NO
-3. ¿El actual funciona? → SÍ
-
-**Decisión:** NUNCA - "Sería útil en el futuro: NO"
-
-**Principio aplicado:** "Don't solve problems you don't have" - Paul Graham
+**Applied principle:** "If it 'looks ugly' but works: DON'T refactor"
 
 ---
 
-## Ejemplo 5: ¿Debo agregar feature que pidió un usuario?
+## Example 3: Should I automate the deploy?
 
-**Contexto:** Un usuario pidió dark mode en la app.
+**Context:** Manual deploy takes 45 minutes, we do 3 deploys/week.
 
-**Aplicando el framework:**
+**Applying the framework:**
 
-1. ¿Cuántos usuarios lo piden? → 1
-2. ¿Es usuario pagante? → NO, free tier
-3. ¿Bloquea conversión a pago? → NO
+1. Is it working? → YES, but slow
+2. Are there complaints? → The team loses 2+ hours/week
+3. Does it block revenue? → NOT directly, but reduces shipping velocity
 
-**Decisión:** P2 o NUNCA - Depende de si hay muchos más pidiendo lo mismo
+**Decision:** P1 - This week, because "ship fast" is core
 
-**Principio aplicado:** "10 usuarios que AMAN > 1000 que 'kinda like it'"
+**Applied principle:** "If manual deploy takes >30min: YES automate"
 
 ---
 
-## Ejemplo 6: ¿Debo migrar la base de datos?
+## Example 4: Should I use this new framework?
 
-**Contexto:** PostgreSQL funciona bien pero "MongoDB sería más flexible".
+**Context:** I saw a new framework on Twitter that looks cool.
 
-**Aplicando el framework:**
+**Applying the framework:**
 
-1. ¿Está funcionando? → SÍ
-2. ¿Hay problemas de performance? → NO
-3. ¿Bloquea features críticas? → NO
+1. Does it solve a real problem TODAY? → NO, just "would be useful"
+2. Does the team know it? → NO
+3. Does the current one work? → YES
 
-**Decisión:** NUNCA - "Reescribir lo que funciona: NUNCA"
+**Decision:** NEVER - "Would be useful in the future: NO"
 
-**Principio aplicado:** Patrick Collison - "Stripe empezó con Ruby + MongoDB. Código feo que funciona > elegante que no existe"
+**Applied principle:** "Don't solve problems you don't have" - Paul Graham
+
+---
+
+## Example 5: Should I add a feature a user requested?
+
+**Context:** A user requested dark mode in the app.
+
+**Applying the framework:**
+
+1. How many users are asking? → 1
+2. Is it a paying user? → NO, free tier
+3. Does it block conversion to paid? → NO
+
+**Decision:** P2 or NEVER - Depends on whether many more are asking for the same
+
+**Applied principle:** "10 users who LOVE it > 1000 who 'kinda like it'"
+
+---
+
+## Example 6: Should I migrate the database?
+
+**Context:** PostgreSQL works fine but "MongoDB would be more flexible".
+
+**Applying the framework:**
+
+1. Is it working? → YES
+2. Are there performance issues? → NO
+3. Does it block critical features? → NO
+
+**Decision:** NEVER - "Rewrite what works: NEVER"
+
+**Applied principle:** Patrick Collison - "Stripe started with Ruby + MongoDB. Ugly code that works > elegant code that doesn't exist"

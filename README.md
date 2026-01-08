@@ -1,10 +1,10 @@
 # YC/SV Development Framework
 
-> Un Claude Skill basado en principios de Y Combinator y Silicon Valley para tomar decisiones de desarrollo.
+> A Claude Code Skill based on Y Combinator and Silicon Valley principles for development decisions.
 
-## ¿Qué es esto?
+## What is this?
 
-Un skill para Claude Code que actúa como un "senior advisor de YC" en tu terminal. Toma decisiones de desarrollo basadas en principios reales de:
+A skill for Claude Code that helps you make development decisions based on real principles from:
 
 - **Paul Graham** - YC Co-founder
 - **Sam Altman** - ex-YC President, OpenAI CEO
@@ -12,91 +12,91 @@ Un skill para Claude Code que actúa como un "senior advisor de YC" en tu termin
 - **Patrick Collison** - Stripe CEO
 - **Brian Chesky** - Airbnb CEO
 
-## La Pregunta Central
+## The Central Question
 
-Antes de cualquier decisión técnica:
+Before any technical decision:
 
-> "¿Esto ayuda a que el próximo cliente pague?"
+> "Will this help the next customer pay?"
 
-Si la respuesta no es claramente SÍ, probablemente no deberías hacerlo.
+If the answer isn't clearly YES, you probably shouldn't do it.
 
-## Principios Core
+## Core Principles
 
-| Principio | Fuente | Implicación |
+| Principle | Source | Implication |
 |-----------|--------|-------------|
 | Ship > Perfect | Michael Seibel | "If you walk away with one thing, launch something bad quickly" |
-| Validation > Architecture | Patrick Collison | Stripe se construyó con Ruby + MongoDB |
-| Do Things That Don't Scale | Paul Graham | Manual primero, automatizar cuando duela |
+| Validation > Architecture | Patrick Collison | Stripe was built with Ruby + MongoDB |
+| Do Things That Don't Scale | Paul Graham | Manual first, automate when it hurts |
 | Default Alive | Paul Graham | "Default alive or default dead?" |
-| Founder Mode | Brian Chesky | Estar en los detalles NO es micromanagement |
+| Founder Mode | Brian Chesky | Being in the details is NOT micromanagement |
 
-## Instalación
+## Installation
 
 ```bash
-# Copiar SKILL.md a tu directorio de skills de Claude
+# Copy SKILL.md to your Claude skills directory
 cp SKILL.md ~/.claude/skills/yc-sv-development-framework/
 ```
 
-## Uso
+## Usage
 
-El skill se activa automáticamente cuando trabajas en:
-- Desarrollo de features
-- Decisiones de arquitectura
-- Priorización de trabajo
-- Evaluación de deuda técnica
+The skill activates automatically when you work on:
+- Feature development
+- Architecture decisions
+- Work prioritization
+- Technical debt evaluation
 
-## Framework de Decisiones
+## Decision Framework
 
-### Pregunta 1: ¿Está funcionando actualmente?
+### Question 1: Is it currently working?
 ```
-SI funciona → NO LO TOQUES
-```
-
-### Pregunta 2: ¿Hay usuarios/clientes quejándose?
-```
-NO hay quejas → No es prioridad
-SI hay quejas → Evaluar impacto en revenue
+YES it works → DON'T TOUCH IT
 ```
 
-### Pregunta 3: ¿Bloquea revenue?
+### Question 2: Are users/customers complaining?
 ```
-SI bloquea revenue → P0 (hacer HOY)
-NO bloquea revenue → P1 o P2
-```
-
-### Pregunta 4: ¿Cuántos usuarios afecta?
-```
-10 usuarios que AMAN el producto > 1000 que "kinda like it"
+NO complaints → Not a priority
+YES complaints → Evaluate revenue impact
 ```
 
-## Prioridades
+### Question 3: Does it block revenue?
+```
+YES blocks revenue → P0 (do it TODAY)
+NO doesn't block → P1 or P2
+```
 
-| Nivel | Cuándo | Ejemplos |
-|-------|--------|----------|
-| **P0** | HOY | Bug que pierde dinero, sistema caído, vulnerabilidad |
-| **P1** | Esta semana | Bug de cliente pagante, feature solicitada |
-| **P2** | Cuando haya tiempo | Refactoring, tests, documentación |
-| **NUNCA** | No hacer | Reescribir lo que funciona, features no solicitadas |
+### Question 4: How many users does it affect?
+```
+10 users who LOVE the product > 1000 who "kinda like it"
+```
 
-## Fuentes Originales
+## Priorities
+
+| Level | When | Examples |
+|-------|------|----------|
+| **P0** | TODAY | Bug losing money, system down, vulnerability |
+| **P1** | This week | Paying customer bug, requested feature |
+| **P2** | When there's time | Refactoring, tests, documentation |
+| **NEVER** | Don't do | Rewriting what works, unrequested features |
+
+## Original Sources
 
 - [Do Things That Don't Scale](https://paulgraham.com/ds.html) - Paul Graham
 - [Startup Advice](https://blog.samaltman.com/startup-advice) - Sam Altman
 - [YC's Essential Startup Advice](https://www.michaelseibel.com/blog/yc-s-essential-startup-advice) - Michael Seibel
-- [Founder Mode](https://paulgraham.com/foundermode.html) - Paul Graham (sobre Brian Chesky)
+- [Founder Mode](https://paulgraham.com/foundermode.html) - Paul Graham (about Brian Chesky)
 - [Stripe Engineering Culture](https://newsletter.pragmaticengineer.com/p/stripe-part-2) - Gergely Orosz
 
-## Contribuir
+## Contributing
 
-PRs bienvenidos. El skill debe mantenerse:
-- **Conciso** - No agregar por agregar
-- **Basado en fuentes reales** - Citar siempre
-- **Actionable** - No teoría abstracta
+PRs welcome. The skill should remain:
+- **Concise** - Don't add for the sake of adding
+- **Based on real sources** - Always cite
+- **Actionable** - No abstract theory
 
-## Licencia
+## License
 
-MIT - Úsalo, modifícalo, compártelo.
+MIT - Use it, modify it, share it.
 
 ---
 
-**Creado con [Claude Code](https://github.com/anthropics/claude-code)** | Built in public
+**Built with [Claude Code](https://github.com/anthropics/claude-code)** | Built in public
