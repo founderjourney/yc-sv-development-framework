@@ -8,44 +8,42 @@
 ## POST DE LINKEDIN (Copiar y pegar)
 
 ```
-Pasé 3 horas leyendo TODOS los essays de Paul Graham, Sam Altman, Michael Seibel, Patrick Collison y Brian Chesky.
+Leí todos los essays de Paul Graham, Sam Altman, Michael Seibel, y estudié cómo Patrick Collison y Brian Chesky construyeron Stripe y Airbnb.
 
-Luego le pedí a Claude que sintetizara todo en un skill reutilizable.
+Luego creé un Claude Skill que sintetiza todo en un framework de decisiones para desarrollo.
 
-El resultado: un framework de decisiones para desarrollo que responde la única pregunta que importa:
+La pregunta central antes de cualquier decisión técnica:
 
 "¿Esto ayuda a que el próximo cliente pague?"
 
 ---
 
-Lo que aprendí destilando 50+ años de sabiduría YC/SV:
+5 principios que aprendí de YC y Silicon Valley:
 
-1. "Launch something bad quickly" - Michael Seibel
+1. Michael Seibel: "If you walk away with one thing, launch something bad quickly"
    → Tu primera versión DEBE ser embarrassing
 
-2. "Validation > Architectural purity" - Patrick Collison
-   → Stripe empezó con Ruby + MongoDB. Código feo que funciona > elegante que no existe
+2. Patrick Collison construyó Stripe con Ruby + MongoDB
+   → Validación > pureza arquitectónica. Código feo que funciona > elegante que no existe
 
-3. "Do it until it hurts, then automate" - Brian Chesky
-   → Manual está BIEN. No automatices lo que no duele
+3. Brian Chesky en Airbnb: hacer las cosas manualmente hasta que duela
+   → No automatices lo que no duele
 
-4. "Default alive or default dead" - Paul Graham
+4. Paul Graham: "Default alive or default dead?"
    → Si no llegas a rentabilidad antes de quedarte sin dinero, nada más importa
 
-5. "Better to decide and be wrong than equivocate" - Sam Altman
+5. Sam Altman: "It's better to make a decision and be wrong than to equivocate"
    → La indecisión mata más startups que las malas decisiones
 
 ---
 
-El skill completo tiene:
+El skill incluye:
 • Framework de decisiones (4 preguntas clave)
 • Sistema P0/P1/P2/NUNCA de priorización
 • Cuándo aceptar vs pagar vs ignorar deuda técnica
-• Decisiones rápidas: tests, refactor, CI/CD, dependencias
+• Decisiones rápidas: tests, refactor, CI/CD
 
-Lo hice open source porque creo que cada developer debería tener un "senior advisor de YC" en su terminal.
-
-Link en comentarios.
+Open source en GitHub (link en comentarios).
 
 ---
 
@@ -68,9 +66,11 @@ Link en comentarios.
 ## TWEET PARA ANTHROPIC (Copiar y pegar)
 
 ```
-.@AnthropicAI I built a Claude Skill that synthesizes 50+ years of YC/SV wisdom from @paulg, @sama, @mwseibel, @patrickc, and @bchesky into a development decision framework.
+.@AnthropicAI I built a Claude Skill based on principles from @paulg, @sama, @mwseibel, @patrickc, and @bchesky.
 
-Every technical decision now passes through "Will this help the next customer pay?"
+A development decision framework where every technical choice passes through: "Will this help the next customer pay?"
+
+Includes prioritization (P0/P1/P2), tech debt guidelines, and quick decisions for tests/refactoring.
 
 Open source: https://github.com/founderjourney/yc-sv-development-framework
 ```

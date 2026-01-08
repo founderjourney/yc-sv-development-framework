@@ -1,6 +1,6 @@
 # YC/SV Development Framework
 
-> Un Claude Skill que sintetiza 50+ años de sabiduría de Y Combinator y Silicon Valley en un framework de decisiones para desarrollo.
+> Un Claude Skill basado en principios de Y Combinator y Silicon Valley para tomar decisiones de desarrollo.
 
 ## ¿Qué es esto?
 
@@ -24,10 +24,10 @@ Si la respuesta no es claramente SÍ, probablemente no deberías hacerlo.
 
 | Principio | Fuente | Implicación |
 |-----------|--------|-------------|
-| Ship > Perfect | Michael Seibel | "Launch something bad quickly" |
-| Validation > Architecture | Patrick Collison | Stripe empezó con Ruby + MongoDB |
+| Ship > Perfect | Michael Seibel | "If you walk away with one thing, launch something bad quickly" |
+| Validation > Architecture | Patrick Collison | Stripe se construyó con Ruby + MongoDB |
 | Do Things That Don't Scale | Paul Graham | Manual primero, automatizar cuando duela |
-| Default Alive | Paul Graham | Si no llegas a rentabilidad, nada más importa |
+| Default Alive | Paul Graham | "Default alive or default dead?" |
 | Founder Mode | Brian Chesky | Estar en los detalles NO es micromanagement |
 
 ## Instalación

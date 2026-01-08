@@ -48,7 +48,9 @@ Si la respuesta no es claramente SI, probablemente no deberias hacerlo.
 ### 2. Validation > Architecture (Patrick Collison)
 
 ```
-"Validation trumps architectural purity" - Stripe fue construido en Ruby con MongoDB
+Patrick Collison construyo Stripe con Ruby + MongoDB, no con tecnologia "elegante".
+"Every time there's a super elegant way to do things and a practical, pragmatic way,
+we're just gonna cut the corner—at least until we validate there's actual user value."
 ```
 
 - Codigo feo que funciona > codigo elegante que no existe
@@ -58,7 +60,8 @@ Si la respuesta no es claramente SI, probablemente no deberias hacerlo.
 ### 3. Do Things That Don't Scale (Paul Graham)
 
 ```
-"Do it until it hurts, then automate it away" - Brian Chesky
+Brian Chesky en Airbnb: hacer las cosas manualmente hasta que duela, luego automatizar.
+Los founders de Stripe instalaban el producto en persona ("Collison installation").
 ```
 
 - Procesos manuales estan BIEN al inicio
@@ -77,8 +80,8 @@ Preguntarte: "Si no levanto mas dinero, llegare a rentabilidad antes de quedarme
 ### 5. Founder Mode (Brian Chesky)
 
 ```
-"Be in the details. Great leadership is presence, not absence"
-"You don't manage people. You manage people through the work" - Jony Ive
+Brian Chesky en su talk de YC 2024: los mejores founders estan en los detalles.
+Gran liderazgo es presencia, no ausencia. Conocer el trabajo, no solo "gestionar personas".
 ```
 
 - Estar en los detalles NO es micromanagement
@@ -149,7 +152,7 @@ NO bloquea revenue → P1 o P2
 ### Cuando ACEPTAR deuda tecnica
 
 ```
-"Tech debt is leverage - most startups need it" - YC
+La deuda tecnica es apalancamiento - la mayoria de startups la necesitan.
 ```
 
 - Para lanzar mas rapido
