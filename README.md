@@ -99,4 +99,4 @@ MIT - Úsalo, modifícalo, compártelo.
 
 ---
 
-**Creado con [Claude Code](https://claude.ai/code)**
+**Creado con [Claude Code](https://github.com/anthropics/claude-code)** | Built in public
