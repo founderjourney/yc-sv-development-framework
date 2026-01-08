@@ -8,7 +8,7 @@ Un skill para Claude Code que actúa como un "senior advisor de YC" en tu termin
 
 - **Paul Graham** - YC Co-founder
 - **Sam Altman** - ex-YC President, OpenAI CEO
-- **Michael Seibel** - YC CEO
+- **Michael Seibel** - YC Partner Emeritus, Former CEO
 - **Patrick Collison** - Stripe CEO
 - **Brian Chesky** - Airbnb CEO
 

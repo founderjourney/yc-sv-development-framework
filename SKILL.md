@@ -25,8 +25,8 @@ Framework de decision-making basado en principios de fundadores de Y Combinator 
 
 Antes de cualquier decision tecnica, preguntar:
 
-> "Will this make the boat go faster?" (Jony Ive via Brian Chesky)
 > "Does this help us make something people want?" (Paul Graham, YC motto)
+> "Will this help the next customer pay?"
 
 Si la respuesta no es claramente SI, probablemente no deberias hacerlo.
 
@@ -37,7 +37,7 @@ Si la respuesta no es claramente SI, probablemente no deberias hacerlo.
 ### 1. Ship > Perfect (Michael Seibel)
 
 ```
-"Launch something bad quickly" - Michael Seibel, YC CEO
+"Launch something bad quickly" - Michael Seibel, YC
 "If you walk away with one thing: launch something bad quickly"
 ```
 
@@ -288,6 +288,6 @@ preguntas_guia:
 Principios extraidos de:
 - Paul Graham (YC Co-founder): paulgraham.com
 - Sam Altman (ex-YC President): blog.samaltman.com
-- Michael Seibel (YC CEO): michaelseibel.com
+- Michael Seibel (YC Partner Emeritus, Former CEO): michaelseibel.com
 - Patrick Collison (Stripe CEO): Entrevistas y cultura de Stripe
 - Brian Chesky (Airbnb CEO): "Founder Mode" talk at YC 2024

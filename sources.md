@@ -14,7 +14,7 @@
 - [Startup Advice, Briefly](https://blog.samaltman.com/startup-advice-briefly) - Versión corta
 - [Startup Playbook](https://playbook.samaltman.com/) - El playbook completo
 
-## Michael Seibel (YC CEO)
+## Michael Seibel (YC Partner Emeritus)
 
 - [YC's Essential Startup Advice](https://www.michaelseibel.com/blog/yc-s-essential-startup-advice) - Lo esencial
 - [The Goals of a Pre-Launch Startup](https://www.startuparchive.org/p/former-yc-ceo-michael-seibel-explains-the-goals-of-a-pre-launch-startup) - Pre-lanzamiento
